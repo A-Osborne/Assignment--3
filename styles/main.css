@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+.container {	
+	margin: 0 auto;
+	height: 100px;
+	max-width: 100%;
+}
+body {
+	font-family: "Arial Rounded MT Bold", "Arial", sans-serif;
+}
+#profile {
+	width: 100%;
+	padding: 10px 30%;
+}
+header {
+	padding: 0.5px;
+	text-align: center;	
+	color: #fff;
+	background: rgba(255,0,0,0.75);
+	color: white;
+}
+h1,
+h2,
+h3 {
+	margin: 10px;
+}
+h1 {
+	font-style: italic;
+}
+section,
+aside {
+	float: right;
+	padding: 10px 30px;
+	display: inline-block;
+}
+section {
+	float: left;
+	width: 70%;
+}
+aside {
+	width: 30%;
+}
+.subSection {
+	padding: 0;
+	width: 100%;
+}
+#education ul {
+	text-align: center;
+	padding: 0;
+	margin-top: -30px;
+	list-style-type: none;
+}
+h1.subHeading {
+	margin: 0;
+	width: 100%;
+	background: rgba(255,0,0,0.75);
+	color: white;
+	text-align: center;
+}
+ul#completed {
+	margin-top: -10px;
+	background: orange;
+}
+#postSecondary {
+	font-size: 30px;
+}
+#skills,
+#work {
+	margin-top: 0px;
+}
+
+/*** MEDIA QUERIES ***/
+
+		/** Desktop Media Queries **/
+
+@media only screen and (min-width: 900px) {
+	/*Placeholder*/ .tablet, 
+	.smartphone {
+		display: none;
+	}
+}
+
+		/** Tablets Media Queries **/
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+	/*Placeholder*/ .desktop, 
+	.smartphone {
+		display: none;
+	}
+}
+
+		/** Smartphone Media Queries **/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	/*Placeholder*/.desktop,
+	.tablet {
+		display: none;
+	}
+
+	header h1 {
+		font-size: 25px;
+	}
+
+	header h2,
+	header h3 {
+		font-size: 20px;
+	}
+
+	#mobile {
+		display: inline-block;
+	}
+	body {
+		font-family: "Arial", sans-serif
+	}
+
+	section, aside {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
